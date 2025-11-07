@@ -1114,9 +1114,9 @@ function ComposerTopBar({
               {isReply ? (
                 <Trans context="action">Reply</Trans>
               ) : isThread ? (
-                <Trans context="action">Skeet All</Trans>
+                <Trans context="action">Post All</Trans>
               ) : (
-                <Trans context="action">Skeet</Trans>
+                <Trans context="action">Post</Trans>
               )}
             </ButtonText>
           </Button>

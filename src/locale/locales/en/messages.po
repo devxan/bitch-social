@@ -1255,7 +1255,7 @@ msgstr ""
 
 #: src/view/com/composer/Composer.tsx:993
 msgid "Are you sure you'd like to discard this post?"
-msgstr ""
+msgstr "Are you sure you'd like to discard this skeet?"
 
 #: src/components/dialogs/MutedWords.tsx:438
 msgid "Are you sure?"
@@ -2106,7 +2106,7 @@ msgstr ""
 
 #: src/view/shell/desktop/LeftNav.tsx:573
 msgid "Compose new post"
-msgstr ""
+msgstr "Compose new skeet"
 
 #: src/view/com/composer/Composer.tsx:957
 msgid "Compose posts up to {0, plural, other {# characters}} in length"
@@ -5663,7 +5663,7 @@ msgstr ""
 #: src/view/shell/desktop/LeftNav.tsx:581
 msgctxt "action"
 msgid "New Post"
-msgstr "Skeet"
+msgstr "New Skeet"
 
 #: src/view/com/notifications/NotificationFeedItem.tsx:542
 msgid "New posts from {firstAuthorLink} and <0>{additionalAuthorsCount, plural, one {{formattedAuthorsCount} other} other {{formattedAuthorsCount} others}}</0>"
@@ -6622,7 +6622,7 @@ msgstr "Skeet"
 #: src/view/com/composer/Composer.tsx:1117
 msgctxt "action"
 msgid "Post All"
-msgstr ""
+msgstr "Skeet All"
 
 #: src/screens/PostThread/components/ThreadItemPostTombstone.tsx:22
 msgid "Post blocked"

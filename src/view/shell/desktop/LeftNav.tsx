@@ -580,7 +580,7 @@ function ComposeBtn() {
         style={[a.rounded_full]}>
         <ButtonIcon icon={EditBig} position="left" />
         <ButtonText>
-          <Trans context="action">New Skeet</Trans>
+          <Trans context="action">New Post</Trans>
         </ButtonText>
       </Button>
     </View>
