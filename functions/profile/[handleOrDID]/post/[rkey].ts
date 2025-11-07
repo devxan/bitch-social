@@ -144,7 +144,7 @@ class HeadHandler {
 
     element.append(
       html`
-        <meta property="og:site_name" content="social.daniela.lol" />
+        <meta property="og:site_name" content="Bitchsky" />
         <meta property="og:type" content="article" />
         <meta property="profile:username" content="${author.handle}" />
         <meta property="og:url" content="${this.url}" />

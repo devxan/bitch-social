@@ -30,7 +30,7 @@ const emojiCache = new Map<string, string>()
 
 function getEmojiUrl(code: string) {
   return (
-    'https://cdnjs.cloudflare.com/ajax/libs/twemoji/14.0.2/svg/' +
+    'https://cdnjs.cloudflare.com/ajax/libs/twemoji/16.0.2/svg/' +
     code.toLowerCase() +
     '.svg'
   )
