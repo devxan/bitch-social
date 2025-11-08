@@ -38,9 +38,6 @@ postbuild-web:
     # need to rewrite to be src="/static/" to handle non root pages
     sed -i 's/\(src\|href\)="static/\1="\/static/g' web-build/index.html
 
-    # we need to copy this file for the domain to verify w/Android
-    cp web/.well-known/assetlinks.json web-build/.well-known
-
     # we need to copy the static iframe html to support youtube embeds
     cp -r bskyweb/static/iframe/ web-build/iframe
 

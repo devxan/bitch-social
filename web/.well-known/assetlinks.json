@@ -1,9 +1,0 @@
-[{
-  "relation": ["delegate_permission/common.handle_all_urls"],
-  "target": {
-    "namespace": "android_app",
-    "package_name": "app.bitchsky",
-    "sha256_cert_fingerprints":
-    ["FD:FB:58:6B:0A:8A:10:E8:F5:2E:BE:8E:AB:5C:78:C1:C5:91:FD:8F:F9:46:CB:0C:52:5F:B4:F8:5B:79:96:C1"]
-  }
-}]
