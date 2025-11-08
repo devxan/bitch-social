@@ -486,12 +486,12 @@ export function DeerSettingsScreen({}: Props) {
             </SettingsList.ItemText>
             <Toggle.Item
               name="repost_carousel"
-              label={_(msg`Combine reposts into a horizontal carousel`)}
+              label={_(msg`Combine reskeets into a horizontal carousel`)}
               value={repostCarouselEnabled}
               onChange={value => setRepostCarouselEnabled(value)}
               style={[a.w_full]}>
               <Toggle.LabelText style={[a.flex_1]}>
-                <Trans>Combine reposts into a horizontal carousel</Trans>
+                <Trans>Combine reskeets into a horizontal carousel</Trans>
               </Toggle.LabelText>
               <Toggle.Platform />
             </Toggle.Item>
@@ -556,19 +556,19 @@ export function DeerSettingsScreen({}: Props) {
 
             <Toggle.Item
               name="disable_via_repost_notification"
-              label={_(msg`Disable via repost notifications`)}
+              label={_(msg`Disable via reskeet notifications`)}
               value={disableViaRepostNotification}
               onChange={value => setDisableViaRepostNotification(value)}
               style={[a.w_full]}>
               <Toggle.LabelText style={[a.flex_1]}>
-                <Trans>Disable via repost notifications</Trans>
+                <Trans>Disable via reskeet notifications</Trans>
               </Toggle.LabelText>
               <Toggle.Platform />
             </Toggle.Item>
             <Admonition type="info" style={[a.flex_1]}>
               <Trans>
                 Forcefully disables the notifications other people receive when
-                you like/repost a post someone else has reposted for privacy.
+                you like/reskeet a skeet someone else has reskeeted for privacy.
               </Trans>
             </Admonition>
 
@@ -605,12 +605,12 @@ export function DeerSettingsScreen({}: Props) {
 
             <Toggle.Item
               name="disable_reposts_metrics"
-              label={_(msg`Disable Reposts Metrics`)}
+              label={_(msg`Disable Reskeets Metrics`)}
               value={disableRepostsMetrics}
               onChange={value => setDisableRepostsMetrics(value)}
               style={[a.w_full]}>
               <Toggle.LabelText style={[a.flex_1]}>
-                <Trans>Disable Reposts Metrics</Trans>
+                <Trans>Disable Reskeets Metrics</Trans>
               </Toggle.LabelText>
               <Toggle.Platform />
             </Toggle.Item>

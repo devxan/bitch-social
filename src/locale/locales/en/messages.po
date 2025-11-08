@@ -68,7 +68,7 @@ msgstr ""
 
 #: src/screens/Post/PostRepostedBy.tsx:44
 msgid "{0, plural, one {# repost} other {# reposts}}"
-msgstr ""
+msgstr "{0, plural, one {# reskeet} other {# reskeets}}"
 
 #: src/lib/hooks/useTimeAgo.ts:139
 msgid "{0, plural, one {# second} other {# seconds}}"
@@ -101,7 +101,7 @@ msgstr ""
 
 #: src/screens/Profile/Header/Metrics.tsx:58
 msgid "{0, plural, one {post} other {posts}}"
-msgstr ""
+msgstr "{0, plural, one {post} other {skeets}}"
 
 #: src/screens/PostThread/components/ThreadItemAnchor.tsx:461
 msgid "{0, plural, one {quote} other {quotes}}"
@@ -109,7 +109,7 @@ msgstr ""
 
 #: src/screens/PostThread/components/ThreadItemAnchor.tsx:443
 msgid "{0, plural, one {repost} other {reposts}}"
-msgstr ""
+msgstr "{0, plural, one {reskeet} other {reskeets}}"
 
 #: src/screens/PostThread/components/ThreadItemAnchor.tsx:488
 msgid "{0, plural, one {save} other {saves}}"
@@ -117,7 +117,7 @@ msgstr ""
 
 #: src/screens/Search/modules/ExploreTrendingTopics.tsx:82
 msgid "{0, plural, other {{1} posts}}"
-msgstr ""
+msgstr "{0, plural, other {{1} skeets}}"
 
 #. Number of users (always at least 25) who have joined Bluesky using a specific starter pack
 #: src/screens/StarterPack/StarterPackScreen.tsx:492
@@ -255,11 +255,11 @@ msgstr ""
 
 #: src/view/com/notifications/NotificationFeedItem.tsx:272
 msgid "{firstAuthorLink} and <0>{additionalAuthorsCount, plural, one {{formattedAuthorsCount} other} other {{formattedAuthorsCount} others}}</0> liked your post"
-msgstr ""
+msgstr "{firstAuthorLink} and <0>{additionalAuthorsCount, plural, one {{formattedAuthorsCount} other} other {{formattedAuthorsCount} others}}</0> liked your skeet"
 
 #: src/view/com/notifications/NotificationFeedItem.tsx:484
 msgid "{firstAuthorLink} and <0>{additionalAuthorsCount, plural, one {{formattedAuthorsCount} other} other {{formattedAuthorsCount} others}}</0> liked your repost"
-msgstr ""
+msgstr "{firstAuthorLink} and <0>{additionalAuthorsCount, plural, one {{formattedAuthorsCount} other} other {{formattedAuthorsCount} others}}</0> liked your reskeet"
 
 #: src/view/com/notifications/NotificationFeedItem.tsx:457
 msgid "{firstAuthorLink} and <0>{additionalAuthorsCount, plural, one {{formattedAuthorsCount} other} other {{formattedAuthorsCount} others}}</0> removed their verifications from your account"
@@ -267,11 +267,11 @@ msgstr ""
 
 #: src/view/com/notifications/NotificationFeedItem.tsx:296
 msgid "{firstAuthorLink} and <0>{additionalAuthorsCount, plural, one {{formattedAuthorsCount} other} other {{formattedAuthorsCount} others}}</0> reposted your post"
-msgstr ""
+msgstr "{firstAuthorLink} and <0>{additionalAuthorsCount, plural, one {{formattedAuthorsCount} other} other {{formattedAuthorsCount} others}}</0> reskeeted your skeet"
 
 #: src/view/com/notifications/NotificationFeedItem.tsx:508
 msgid "{firstAuthorLink} and <0>{additionalAuthorsCount, plural, one {{formattedAuthorsCount} other} other {{formattedAuthorsCount} others}}</0> reposted your repost"
-msgstr ""
+msgstr "{firstAuthorLink} and <0>{additionalAuthorsCount, plural, one {{formattedAuthorsCount} other} other {{formattedAuthorsCount} others}}</0> reskeeted your reskeet"
 
 #: src/view/com/notifications/NotificationFeedItem.tsx:403
 msgid "{firstAuthorLink} and <0>{additionalAuthorsCount, plural, one {{formattedAuthorsCount} other} other {{formattedAuthorsCount} others}}</0> signed up with your starter pack"
@@ -295,11 +295,11 @@ msgstr ""
 
 #: src/view/com/notifications/NotificationFeedItem.tsx:284
 msgid "{firstAuthorLink} liked your post"
-msgstr ""
+msgstr "{firstAuthorLink} liked your skeet"
 
 #: src/view/com/notifications/NotificationFeedItem.tsx:496
 msgid "{firstAuthorLink} liked your repost"
-msgstr ""
+msgstr "{firstAuthorLink} liked your reskeet"
 
 #: src/view/com/notifications/NotificationFeedItem.tsx:469
 msgid "{firstAuthorLink} removed their verification from your account"
@@ -307,11 +307,11 @@ msgstr ""
 
 #: src/view/com/notifications/NotificationFeedItem.tsx:308
 msgid "{firstAuthorLink} reposted your post"
-msgstr ""
+msgstr "{firstAuthorLink} reskeeted your skeet"
 
 #: src/view/com/notifications/NotificationFeedItem.tsx:520
 msgid "{firstAuthorLink} reposted your repost"
-msgstr ""
+msgstr "{firstAuthorLink} reskeeted your reskeet"
 
 #: src/view/com/notifications/NotificationFeedItem.tsx:415
 msgid "{firstAuthorLink} signed up with your starter pack"
@@ -331,11 +331,11 @@ msgstr ""
 
 #: src/view/com/notifications/NotificationFeedItem.tsx:265
 msgid "{firstAuthorName} and {additionalAuthorsCount, plural, one {{formattedAuthorsCount} other} other {{formattedAuthorsCount} others}} liked your post"
-msgstr ""
+msgstr "{firstAuthorName} and {additionalAuthorsCount, plural, one {{formattedAuthorsCount} other} other {{formattedAuthorsCount} others}} liked your skeet"
 
 #: src/view/com/notifications/NotificationFeedItem.tsx:477
 msgid "{firstAuthorName} and {additionalAuthorsCount, plural, one {{formattedAuthorsCount} other} other {{formattedAuthorsCount} others}} liked your repost"
-msgstr ""
+msgstr "{firstAuthorName} and {additionalAuthorsCount, plural, one {{formattedAuthorsCount} other} other {{formattedAuthorsCount} others}} liked your reskeet"
 
 #: src/view/com/notifications/NotificationFeedItem.tsx:450
 msgid "{firstAuthorName} and {additionalAuthorsCount, plural, one {{formattedAuthorsCount} other} other {{formattedAuthorsCount} others}} removed their verifications from your account"
@@ -343,11 +343,11 @@ msgstr ""
 
 #: src/view/com/notifications/NotificationFeedItem.tsx:289
 msgid "{firstAuthorName} and {additionalAuthorsCount, plural, one {{formattedAuthorsCount} other} other {{formattedAuthorsCount} others}} reposted your post"
-msgstr ""
+msgstr "{firstAuthorName} and {additionalAuthorsCount, plural, one {{formattedAuthorsCount} other} other {{formattedAuthorsCount} others}} reskeeted your skeet"
 
 #: src/view/com/notifications/NotificationFeedItem.tsx:501
 msgid "{firstAuthorName} and {additionalAuthorsCount, plural, one {{formattedAuthorsCount} other} other {{formattedAuthorsCount} others}} reposted your repost"
-msgstr ""
+msgstr "{firstAuthorName} and {additionalAuthorsCount, plural, one {{formattedAuthorsCount} other} other {{formattedAuthorsCount} others}} reskeeted your reskeet"
 
 #: src/view/com/notifications/NotificationFeedItem.tsx:396
 msgid "{firstAuthorName} and {additionalAuthorsCount, plural, one {{formattedAuthorsCount} other} other {{formattedAuthorsCount} others}} signed up with your starter pack"
@@ -371,11 +371,11 @@ msgstr ""
 
 #: src/view/com/notifications/NotificationFeedItem.tsx:270
 msgid "{firstAuthorName} liked your post"
-msgstr ""
+msgstr "{firstAuthorName} liked your skeet"
 
 #: src/view/com/notifications/NotificationFeedItem.tsx:482
 msgid "{firstAuthorName} liked your repost"
-msgstr ""
+msgstr "{firstAuthorName} liked your reskeet"
 
 #: src/view/com/notifications/NotificationFeedItem.tsx:455
 msgid "{firstAuthorName} removed their verification from your account"
@@ -383,11 +383,11 @@ msgstr ""
 
 #: src/view/com/notifications/NotificationFeedItem.tsx:294
 msgid "{firstAuthorName} reposted your post"
-msgstr ""
+msgstr "{firstAuthorName} reskeeted your skeet"
 
 #: src/view/com/notifications/NotificationFeedItem.tsx:506
 msgid "{firstAuthorName} reposted your repost"
-msgstr ""
+msgstr "{firstAuthorName} reskeeted your reskeet"
 
 #: src/view/com/notifications/NotificationFeedItem.tsx:401
 msgid "{firstAuthorName} signed up with your starter pack"
@@ -801,7 +801,7 @@ msgstr ""
 
 #: src/components/PostControls/BookmarkButton.tsx:129
 msgid "Add to saved posts"
-msgstr ""
+msgstr "Add to saved skeets"
 
 #: src/components/dialogs/StarterPackDialog.tsx:176
 #: src/view/com/profile/ProfileMenu.tsx:313
@@ -927,11 +927,11 @@ msgstr ""
 #: src/screens/Settings/ActivityPrivacySettings.tsx:52
 #: src/screens/Settings/PrivacyAndSecuritySettings.tsx:91
 msgid "Allow others to be notified of your posts"
-msgstr ""
+msgstr "Allow others to be notified of your skeets"
 
 #: src/components/dialogs/PostInteractionSettingsDialog.tsx:355
 msgid "Allow quote posts"
-msgstr ""
+msgstr "Allow quote skeets"
 
 #: src/components/dialogs/PostInteractionSettingsDialog.tsx:400
 msgid "Allow replies from:"
@@ -1355,7 +1355,7 @@ msgstr ""
 
 #: src/components/activity-notifications/SubscribeProfileButton.tsx:43
 msgid "Before you can get notifications for {name}'s posts, you must first verify your email."
-msgstr ""
+msgstr "Before you can get notifications for {name}'s skeets, you must first verify your email."
 
 #: src/components/dms/dialogs/NewChatDialog.tsx:54
 #: src/components/dms/MessageProfileButton.tsx:58
@@ -1478,7 +1478,7 @@ msgstr ""
 #: src/view/com/auth/server-input/index.tsx:136
 #: src/view/com/auth/server-input/index.tsx:137
 msgid "Bluesky"
-msgstr ""
+msgstr "Bitchsky"
 
 #: src/screens/PostThread/components/ThreadItemAnchor.tsx:688
 msgid "Bluesky cannot confirm the authenticity of the claimed date."
@@ -1495,12 +1495,12 @@ msgstr ""
 
 #: src/view/com/auth/server-input/index.tsx:149
 msgid "Bluesky is an open network where you can choose your own provider. If you're new here, we recommend sticking with the default Bluesky Social option."
-msgstr ""
+msgstr "Bluesky is an open network where you can choose your own provider. If you're new here, we recommend sticking with the default Bitchsky Social option."
 
 #: src/components/ProgressGuide/List.tsx:53
 #: src/components/ProgressGuide/List.tsx:70
 msgid "Bluesky is better with friends!"
-msgstr ""
+msgstr "Bitchsky is better with friends!"
 
 #: src/screens/Takendown.tsx:226
 msgid "Bluesky Social Terms of Service"
@@ -1512,7 +1512,7 @@ msgstr ""
 
 #: src/screens/Settings/components/PwiOptOut.tsx:99
 msgid "Bluesky will not show your profile and posts to logged-out users. Other apps may not honor this request. This does not make your account private."
-msgstr ""
+msgstr "Bitchsky will not show your profile and posts to logged-out users. Other apps may not honor this request. This does not make your account private."
 
 #: src/components/dialogs/nuxs/InitialVerificationAnnouncement.tsx:132
 msgid "Bluesky will proactively verify notable and authentic accounts."
@@ -1567,11 +1567,11 @@ msgstr ""
 
 #: src/components/TrendingTopics.tsx:178
 msgid "Browse posts about {displayName}"
-msgstr ""
+msgstr "Browse skeets about {displayName}"
 
 #: src/components/TrendingTopics.tsx:186
 msgid "Browse posts tagged with {displayName}"
-msgstr ""
+msgstr "Browse skeets tagged with {displayName}"
 
 #: src/components/TrendingTopics.tsx:195
 msgid "Browse starter pack {displayName}"
@@ -1926,11 +1926,11 @@ msgstr ""
 
 #: src/components/dialogs/PostInteractionSettingsDialog.tsx:348
 msgid "Click to disable quote posts of this post."
-msgstr ""
+msgstr "Click to disable quote skeets of this post."
 
 #: src/components/dialogs/PostInteractionSettingsDialog.tsx:349
 msgid "Click to enable quote posts of this post."
-msgstr ""
+msgstr "Click to enable quote skeets of this post."
 
 #: src/components/RichTextTag.tsx:54
 msgid "Click to open tag menu for {tag}"
@@ -2110,7 +2110,7 @@ msgstr "Compose new skeet"
 
 #: src/view/com/composer/Composer.tsx:957
 msgid "Compose posts up to {0, plural, other {# characters}} in length"
-msgstr ""
+msgstr "Compose skeets up to {0, plural, other {# characters}} in length"
 
 #: src/screens/PostThread/components/ThreadComposePrompt.tsx:62
 msgid "Compose reply"
@@ -2372,7 +2372,7 @@ msgstr ""
 #: src/components/PostControls/ShareMenu/ShareMenuItems.web.tsx:86
 #: src/components/PostControls/ShareMenu/ShareMenuItems.web.tsx:89
 msgid "Copy link to post"
-msgstr ""
+msgstr "Copy link to skeet"
 
 #: src/view/com/profile/ProfileMenu.tsx:251
 #: src/view/com/profile/ProfileMenu.tsx:262
@@ -2396,7 +2396,7 @@ msgstr ""
 #: src/components/PostControls/PostMenu/PostMenuItems.tsx:484
 #: src/components/PostControls/PostMenu/PostMenuItems.tsx:486
 msgid "Copy post text"
-msgstr ""
+msgstr "Copy skeet text"
 
 #: src/components/StarterPack/QrCodeDialog.tsx:178
 msgid "Copy QR code"
@@ -2563,7 +2563,7 @@ msgstr ""
 
 #: src/components/dialogs/PostInteractionSettingsDialog.tsx:111
 msgid "Customize who can interact with this post."
-msgstr ""
+msgstr "Customize who can interact with this skeet."
 
 #: src/screens/Onboarding/Layout.tsx:60
 msgid "Customizes your Bluesky experience"
@@ -2700,7 +2700,7 @@ msgstr ""
 #: src/components/PostControls/PostMenu/PostMenuItems.tsx:719
 #: src/view/com/composer/Composer.tsx:967
 msgid "Delete post"
-msgstr ""
+msgstr "Delete skeet"
 
 #: src/screens/StarterPack/StarterPackScreen.tsx:595
 #: src/screens/StarterPack/StarterPackScreen.tsx:753
@@ -2717,7 +2717,7 @@ msgstr ""
 
 #: src/components/PostControls/PostMenu/PostMenuItems.tsx:731
 msgid "Delete this post?"
-msgstr ""
+msgstr "Delete this skeet?"
 
 #: src/components/Post/Embed/index.tsx:179
 msgid "Deleted"
@@ -2753,7 +2753,7 @@ msgstr ""
 
 #: src/components/PostControls/PostMenu/PostMenuItems.tsx:767
 msgid "Detach quote post?"
-msgstr ""
+msgstr "Detach quote skeet?"
 
 #: src/screens/Settings/AboutSettings.tsx:140
 msgctxt "toast"
@@ -2772,7 +2772,7 @@ msgstr ""
 
 #: src/components/WhoCanReply.tsx:188
 msgid "Dialog: adjust who can interact with this post"
-msgstr ""
+msgstr "Dialog: adjust who can interact with this skeet?"
 
 #: src/screens/Settings/AppearanceSettings.tsx:123
 msgid "Dim"
@@ -2827,7 +2827,7 @@ msgstr ""
 
 #: src/view/com/composer/Composer.tsx:992
 msgid "Discard post?"
-msgstr ""
+msgstr "Discard skeet?"
 
 #: src/screens/Settings/components/PwiOptOut.tsx:87
 #: src/screens/Settings/components/PwiOptOut.tsx:91
@@ -2957,7 +2957,7 @@ msgstr ""
 
 #: src/screens/StarterPack/StarterPackLandingScreen.tsx:330
 msgid "Download Bluesky"
-msgstr ""
+msgstr "Download Bitchsky"
 
 #: src/screens/Settings/components/ExportCarDialog.tsx:78
 #: src/screens/Settings/components/ExportCarDialog.tsx:83
@@ -2994,7 +2994,7 @@ msgstr ""
 
 #: src/components/dialogs/lists/CreateOrEditListDialog.tsx:353
 msgid "e.g. Great Posters"
-msgstr ""
+msgstr "e.g. Great Skeeters"
 
 #: src/components/dialogs/lists/CreateOrEditListDialog.tsx:354
 msgid "e.g. Spammers"
@@ -3002,7 +3002,7 @@ msgstr ""
 
 #: src/components/dialogs/lists/CreateOrEditListDialog.tsx:357
 msgid "e.g. The posters who never miss."
-msgstr ""
+msgstr "e.g. The skeeters who never miss."
 
 #: src/components/dialogs/lists/CreateOrEditListDialog.tsx:358
 msgid "e.g. Users that repeatedly reply with ads."
@@ -3081,7 +3081,7 @@ msgstr ""
 #: src/components/dialogs/PostInteractionSettingsDialog.tsx:77
 #: src/components/dialogs/PostInteractionSettingsDialog.tsx:250
 msgid "Edit post interaction settings"
-msgstr ""
+msgstr "Edit skeet interaction settings"
 
 #: src/screens/Profile/Header/EditProfileDialog.tsx:268
 #: src/screens/Profile/Header/EditProfileDialog.tsx:274
@@ -3163,11 +3163,11 @@ msgstr ""
 #: src/components/PostControls/ShareMenu/ShareMenuItems.web.tsx:118
 #: src/components/PostControls/ShareMenu/ShareMenuItems.web.tsx:123
 msgid "Embed post"
-msgstr ""
+msgstr "Embed skeet"
 
 #: src/components/dialogs/Embed.tsx:112
 msgid "Embed this post in your website. Simply copy the following snippet and paste it into the HTML code of your website."
-msgstr ""
+msgstr "Embed this skeet in your website. Simply copy the following snippet and paste it into the HTML code of your website."
 
 #: src/components/Post/Embed/VideoEmbed/VideoEmbedInner/VideoEmbedInnerWeb.tsx:58
 msgid "Embedded video player"
@@ -3305,7 +3305,7 @@ msgstr ""
 
 #: src/screens/PostThread/components/ThreadError.tsx:26
 msgid "Error loading post"
-msgstr ""
+msgstr "Error loading skeet"
 
 #: src/screens/Settings/PrivacyAndSecuritySettings.tsx:153
 msgid "Error loading preference"
@@ -3337,7 +3337,7 @@ msgstr ""
 
 #: src/components/WhoCanReply.tsx:245
 msgid "Everybody can reply to this post."
-msgstr ""
+msgstr "Everybody can reply to this skeet."
 
 #: src/screens/Messages/Settings.tsx:88
 #: src/screens/Messages/Settings.tsx:91
@@ -3389,15 +3389,15 @@ msgstr ""
 
 #: src/view/com/composer/ComposerReplyTo.tsx:91
 msgid "Expand or collapse the full post you are replying to"
-msgstr ""
+msgstr "Expand or collapse the full skeet you are replying to"
 
 #: src/components/Post/ShowMoreTextButton.tsx:32
 msgid "Expand post text"
-msgstr ""
+msgstr "Expand skeet text"
 
 #: src/screens/VideoFeed/index.tsx:972
 msgid "Expands or collapses post text"
-msgstr ""
+msgstr "Expands or collapses skeet text"
 
 #: src/lib/api/index.ts:418
 msgid "Expected uri to resolve to a record"
@@ -3521,7 +3521,7 @@ msgstr ""
 
 #: src/components/PostControls/PostMenu/PostMenuItems.tsx:204
 msgid "Failed to delete post, please try again"
-msgstr ""
+msgstr "Failed to delete skeet, please try again"
 
 #: src/screens/StarterPack/StarterPackScreen.tsx:724
 msgid "Failed to delete starter pack"
@@ -3587,7 +3587,7 @@ msgstr ""
 
 #: src/state/queries/pinned-post.ts:75
 msgid "Failed to pin post"
-msgstr ""
+msgstr "Failed to pin skeet"
 
 #: src/components/dms/ActionsWrapper.web.tsx:60
 #: src/components/dms/MessageContextMenu.tsx:95
@@ -3787,7 +3787,7 @@ msgstr ""
 
 #: src/components/dialogs/nuxs/BookmarksAnnouncement.tsx:154
 msgid "Finally! Keep track of posts that matter to you. Save them to revisit anytime."
-msgstr ""
+msgstr "Finally! Keep track of skeets that matter to you. Save them to revisit anytime."
 
 #: src/lib/interests.ts:60
 msgid "Finance"
@@ -3807,7 +3807,7 @@ msgstr ""
 
 #: src/screens/Search/Shell.tsx:525
 msgid "Find posts, users, and feeds on Bluesky"
-msgstr ""
+msgstr "Find skeets, users, and feeds on Bitchsky"
 
 #: src/screens/Onboarding/StepFinished/ValuePropositionPager.shared.tsx:21
 msgid "Find your people"
@@ -4035,7 +4035,7 @@ msgstr ""
 
 #: src/lib/moderation/useReportOptions.ts:54
 msgid "Frequently Posts Unwanted Content"
-msgstr ""
+msgstr "Frequently Skeets Unwanted Content"
 
 #: src/screens/Settings/NotificationSettings/components/PreferenceControls.tsx:157
 msgid "From"
@@ -4064,11 +4064,11 @@ msgstr ""
 
 #: src/screens/Settings/NotificationSettings/LikesOnRepostsNotificationSettings.tsx:43
 msgid "Get notifications when people like posts that you've reposted."
-msgstr ""
+msgstr "Get notifications when people like skeets that you've reskeeted."
 
 #: src/screens/Settings/NotificationSettings/LikeNotificationSettings.tsx:43
 msgid "Get notifications when people like your posts."
-msgstr ""
+msgstr "Get notifications when people like your skeets."
 
 #: src/screens/Settings/NotificationSettings/MentionNotificationSettings.tsx:43
 msgid "Get notifications when people mention you."
@@ -4076,31 +4076,31 @@ msgstr ""
 
 #: src/screens/Settings/NotificationSettings/QuoteNotificationSettings.tsx:43
 msgid "Get notifications when people quote your posts."
-msgstr ""
+msgstr "Get notifications when people quote your skeets."
 
 #: src/screens/Settings/NotificationSettings/ReplyNotificationSettings.tsx:43
 msgid "Get notifications when people reply to your posts."
-msgstr ""
+msgstr "Get notifications when people reply to your skeets."
 
 #: src/screens/Settings/NotificationSettings/RepostsOnRepostsNotificationSettings.tsx:43
 msgid "Get notifications when people repost posts that you've reposted."
-msgstr ""
+msgstr "Get notifications when people reskeet skeets that you've reskeeted."
 
 #: src/screens/Settings/NotificationSettings/RepostNotificationSettings.tsx:43
 msgid "Get notifications when people repost your posts."
-msgstr ""
+msgstr "Get notifications when people reskeet your skeets"
 
 #: src/components/activity-notifications/SubscribeProfileButton.tsx:77
 msgid "Get notified about new posts"
-msgstr ""
+msgstr "Get notified about new skeets"
 
 #: src/screens/Settings/NotificationSettings/ActivityNotificationSettings.tsx:104
 msgid "Get notified about posts and replies from accounts you choose."
-msgstr ""
+msgstr "Get notified about skeets and replies from accounts you choose."
 
 #: src/components/activity-notifications/SubscribeProfileDialog.tsx:219
 msgid "Get notified of new posts from {name}"
-msgstr ""
+msgstr "Get notified of new skeets from {name}"
 
 #: src/components/activity-notifications/SubscribeProfileDialog.tsx:226
 msgid "Get notified of this account’s activity"
@@ -4108,11 +4108,11 @@ msgstr ""
 
 #: src/components/activity-notifications/SubscribeProfileButton.tsx:70
 msgid "Get notified when {name} posts"
-msgstr ""
+msgstr "Get notified when {name} skeets"
 
 #: src/components/dialogs/nuxs/ActivitySubscriptions.tsx:137
 msgid "Get notified when someone posts"
-msgstr ""
+msgstr "Get notified when someone skeets"
 
 #: src/components/dialogs/EmailDialog/screens/VerificationReminder.tsx:76
 #: src/components/dialogs/EmailDialog/screens/VerificationReminder.tsx:86
@@ -4378,7 +4378,7 @@ msgstr ""
 #: src/components/PostControls/PostMenu/PostMenuItems.tsx:578
 #: src/components/PostControls/PostMenu/PostMenuItems.tsx:584
 msgid "Hide post for me"
-msgstr ""
+msgstr "Hide skeet for me"
 
 #: src/components/PostControls/PostMenu/PostMenuItems.tsx:595
 #: src/components/PostControls/PostMenu/PostMenuItems.tsx:605
@@ -4396,7 +4396,7 @@ msgstr ""
 
 #: src/components/PostControls/PostMenu/PostMenuItems.tsx:742
 msgid "Hide this post?"
-msgstr ""
+msgstr "Hide this skeet?"
 
 #: src/components/PostControls/PostMenu/PostMenuItems.tsx:742
 #: src/components/PostControls/PostMenu/PostMenuItems.tsx:777
@@ -4530,7 +4530,7 @@ msgstr ""
 
 #: src/components/PostControls/PostMenu/PostMenuItems.tsx:733
 msgid "If you remove this post, you won't be able to recover it."
-msgstr ""
+msgstr "If you remove this skeet, you won't be able to recover it."
 
 #: src/components/dialogs/EmailDialog/screens/Update.tsx:208
 msgid "If you update your email address, email 2FA will be disabled."
@@ -4666,7 +4666,7 @@ msgstr ""
 
 #: src/components/dialogs/nuxs/BookmarksAnnouncement.tsx:37
 msgid "Introducing saved posts AKA bookmarks"
-msgstr ""
+msgstr "Introducing saved skeets AKA bookmarks"
 
 #: src/screens/Login/LoginForm.tsx:156
 #: src/screens/Settings/components/DisableEmail2FADialog.tsx:70
@@ -4955,12 +4955,12 @@ msgstr ""
 
 #: src/components/ProgressGuide/List.tsx:63
 msgid "Like 10 posts"
-msgstr ""
+msgstr "Like 10 skeets"
 
 #: src/state/shell/progress-guide.tsx:216
 #: src/state/shell/progress-guide.tsx:221
 msgid "Like 10 posts to train the Discover feed"
-msgstr ""
+msgstr "Like 10 skeets to train the Discover feed"
 
 #: src/Navigation.tsx:452
 msgid "Like notifications"
@@ -5008,15 +5008,15 @@ msgstr ""
 #: src/screens/Settings/NotificationSettings/index.tsx:207
 #: src/screens/Settings/NotificationSettings/LikesOnRepostsNotificationSettings.tsx:41
 msgid "Likes of your reposts"
-msgstr ""
+msgstr "Likes of your reskeets"
 
 #: src/Navigation.tsx:476
 msgid "Likes of your reposts notifications"
-msgstr ""
+msgstr "Likes of your reskeets notifications"
 
 #: src/screens/PostThread/components/ThreadItemAnchor.tsx:470
 msgid "Likes on this post"
-msgstr ""
+msgstr "Likes on this skeet"
 
 #: src/screens/PostThread/components/HeaderDropdown.tsx:47
 #: src/screens/PostThread/components/HeaderDropdown.tsx:52
@@ -5150,7 +5150,7 @@ msgstr ""
 #: src/screens/ProfileList/FeedSection.tsx:105
 #: src/view/com/feeds/FeedPage.tsx:169
 msgid "Load new posts"
-msgstr ""
+msgstr "Load new skeets"
 
 #: src/view/com/composer/text-input/mobile/Autocomplete.tsx:61
 msgid "Loading..."
@@ -5331,7 +5331,7 @@ msgstr ""
 
 #: src/lib/moderation/useReportOptions.ts:67
 msgid "Misleading Post"
-msgstr ""
+msgstr "Misleading Skeet"
 
 #: src/Navigation.tsx:177
 #: src/screens/Moderation/index.tsx:100
@@ -5480,7 +5480,7 @@ msgstr ""
 
 #: src/components/dialogs/MutedWords.tsx:263
 msgid "Mute this word in post text and tags"
-msgstr ""
+msgstr "Mute this word in skeet text and tags"
 
 #: src/components/dialogs/MutedWords.tsx:279
 msgid "Mute this word in tags only"
@@ -5511,7 +5511,7 @@ msgstr ""
 
 #: src/view/screens/ModerationMutedAccounts.tsx:202
 msgid "Muted accounts have their posts removed from your feed and from your notifications. Mutes are completely private."
-msgstr ""
+msgstr "Muted accounts have their skeets removed from your feed and from your notifications. Mutes are completely private."
 
 #: src/lib/moderation/useModerationCauseDescription.ts:93
 msgid "Muted by \"{0}\""
@@ -5523,7 +5523,7 @@ msgstr ""
 
 #: src/screens/ProfileList/components/SubscribeMenu.tsx:112
 msgid "Muting is private. Muted accounts can interact with you, but you will not see their posts or receive notifications from them."
-msgstr ""
+msgstr "Muting is private. Muted accounts can interact with you, but you will not see their skeets or receive notifications from them."
 
 #: src/components/dialogs/BirthDateSettings.tsx:38
 #: src/components/dialogs/BirthDateSettings.tsx:42
@@ -5593,11 +5593,11 @@ msgstr ""
 
 #: src/view/com/notifications/NotificationFeedItem.tsx:553
 msgid "New {postsCount, plural, one {post} other {posts}} from {firstAuthorLink}"
-msgstr ""
+msgstr "New {postsCount, plural, one {skeet} other {skeets}} from {firstAuthorLink}"
 
 #: src/view/com/notifications/NotificationFeedItem.tsx:536
 msgid "New {postsCount, plural, one {post} other {posts}} from {firstAuthorName}"
-msgstr ""
+msgstr "New {postsCount, plural, one {skeet} other {skeets}} from {firstAuthorName}"
 
 #: src/components/dms/dialogs/NewChatDialog.tsx:67
 #: src/screens/Messages/ChatList.tsx:403
@@ -5653,12 +5653,12 @@ msgstr ""
 #: src/view/screens/Notifications.tsx:167
 #: src/view/screens/Profile.tsx:510
 msgid "New post"
-msgstr ""
+msgstr "New skeet"
 
 #: src/view/com/feeds/FeedPage.tsx:180
 msgctxt "action"
 msgid "New post"
-msgstr ""
+msgstr "New skeet"
 
 #: src/view/shell/desktop/LeftNav.tsx:581
 msgctxt "action"
@@ -5667,11 +5667,11 @@ msgstr "New Skeet"
 
 #: src/view/com/notifications/NotificationFeedItem.tsx:542
 msgid "New posts from {firstAuthorLink} and <0>{additionalAuthorsCount, plural, one {{formattedAuthorsCount} other} other {{formattedAuthorsCount} others}}</0>"
-msgstr ""
+msgstr "New skeets from {firstAuthorLink} and <0>{additionalAuthorsCount, plural, one {{formattedAuthorsCount} other} other {{formattedAuthorsCount} others}}</0>"
 
 #: src/view/com/notifications/NotificationFeedItem.tsx:527
 msgid "New posts from {firstAuthorName} and {additionalAuthorsCount, plural, one {{formattedAuthorsCount} other} other {{formattedAuthorsCount} others}}"
-msgstr ""
+msgstr "New skeets from {firstAuthorName} and {additionalAuthorsCount, plural, one {{formattedAuthorsCount} other} other {{formattedAuthorsCount} others}}"
 
 #: src/components/dialogs/StarterPackDialog.tsx:193
 msgid "New starter pack"
@@ -5777,15 +5777,15 @@ msgstr ""
 
 #: src/components/WhoCanReply.tsx:269
 msgid "No one but the author can quote this post."
-msgstr ""
+msgstr "No one but the author can quote this skeet."
 
 #: src/screens/Notifications/ActivityList.tsx:38
 msgid "No posts here"
-msgstr ""
+msgstr "No skeets here"
 
 #: src/screens/Profile/Sections/Feed.tsx:62
 msgid "No posts yet."
-msgstr ""
+msgstr "No skeets yet."
 
 #: src/view/com/post-thread/PostQuotes.tsx:105
 msgid "No quotes yet"
@@ -5793,7 +5793,7 @@ msgstr ""
 
 #: src/view/com/post-thread/PostRepostedBy.tsx:90
 msgid "No reposts yet"
-msgstr ""
+msgstr "No reskeets yet"
 
 #: src/view/com/composer/text-input/mobile/Autocomplete.tsx:61
 #: src/view/com/composer/text-input/web/Autocomplete.tsx:192
@@ -5851,7 +5851,7 @@ msgstr ""
 
 #: src/view/com/post-thread/PostRepostedBy.tsx:92
 msgid "Nobody has reposted this yet. Maybe you should be the first!"
-msgstr ""
+msgstr "Nobody has reskeeted this yet. Maybe you should be the first!"
 
 #: src/screens/StarterPack/Wizard/StepProfiles.tsx:107
 msgid "Nobody was found. Try searching for someone else."
@@ -5892,7 +5892,7 @@ msgstr ""
 
 #: src/components/PostControls/ShareMenu/ShareMenuItems.web.tsx:133
 msgid "Note: This post is only visible to logged-in users."
-msgstr ""
+msgstr "Note: This skeet may only be visible to logged-in users."
 
 #: src/screens/Messages/ChatList.tsx:304
 msgid "Nothing here"
@@ -6111,7 +6111,7 @@ msgstr ""
 
 #: src/components/PostControls/PostMenu/index.tsx:64
 msgid "Open post options menu"
-msgstr ""
+msgstr "Open skeet options menu"
 
 #: src/components/live/LiveStatusDialog.tsx:189
 #: src/components/live/LiveStatusDialog.tsx:203
@@ -6137,7 +6137,7 @@ msgstr ""
 
 #: src/view/com/composer/labels/LabelsBtn.tsx:62
 msgid "Opens a dialog to add a content warning to your post"
-msgstr ""
+msgstr "Opens a dialog to add a content warning to your skeet"
 
 #: src/view/com/composer/threadgate/ThreadgateBtn.tsx:61
 msgid "Opens a dialog to choose who can reply to this thread"
@@ -6208,7 +6208,7 @@ msgstr ""
 
 #: src/view/com/composer/select-language/PostLanguageSelect.tsx:129
 msgid "Opens post language settings"
-msgstr ""
+msgstr "Opens skeet language settings"
 
 #: src/view/com/notifications/NotificationFeedItem.tsx:906
 #: src/view/com/util/UserAvatar.tsx:599
@@ -6461,7 +6461,7 @@ msgstr ""
 
 #: src/view/com/composer/labels/LabelsBtn.tsx:115
 msgid "Please add any content warning labels that are applicable for the media you are posting."
-msgstr ""
+msgstr "Please add any content warning labels that are applicable for the media you are skeeting."
 
 #: src/components/ageAssurance/AgeAssuranceInitDialog.tsx:188
 msgid "Please check your email inbox for further instructions. It may take a minute or two to arrive."
@@ -6612,7 +6612,7 @@ msgstr ""
 #: src/screens/PostThread/index.tsx:504
 msgctxt "description"
 msgid "Post"
-msgstr ""
+msgstr "Skeet"
 
 #: src/view/com/composer/Composer.tsx:1119
 msgctxt "action"
@@ -6626,73 +6626,73 @@ msgstr "Skeet All"
 
 #: src/screens/PostThread/components/ThreadItemPostTombstone.tsx:22
 msgid "Post blocked"
-msgstr ""
+msgstr "Skeet blocked"
 
 #: src/Navigation.tsx:264
 #: src/Navigation.tsx:271
 #: src/Navigation.tsx:278
 #: src/Navigation.tsx:285
 msgid "Post by @{0}"
-msgstr ""
+msgstr "Skeet by @{0}"
 
 #: src/components/PostControls/PostMenu/PostMenuItems.tsx:184
 msgctxt "toast"
 msgid "Post deleted"
-msgstr ""
+msgstr "Skeet deleted"
 
 #: src/lib/api/index.ts:186
 msgid "Post failed to upload. Please check your Internet connection and try again."
-msgstr ""
+msgstr "Skeet failed to upload. Please check your Internet connection and try again."
 
 #: src/screens/PostThread/components/ThreadItemAnchor.tsx:134
 #: src/screens/PostThread/components/ThreadItemPost.tsx:112
 #: src/screens/PostThread/components/ThreadItemTreePost.tsx:108
 #: src/screens/VideoFeed/index.tsx:534
 msgid "Post has been deleted"
-msgstr ""
+msgstr "Skeet has been deleted"
 
 #: src/components/moderation/ModerationDetailsDialog.tsx:109
 #: src/lib/moderation/useModerationCauseDescription.ts:107
 msgid "Post Hidden by Muted Word"
-msgstr ""
+msgstr "Skeet Hidden by Muted Word"
 
 #: src/components/moderation/ModerationDetailsDialog.tsx:112
 #: src/lib/moderation/useModerationCauseDescription.ts:116
 msgid "Post Hidden by You"
-msgstr ""
+msgstr "Skeet Hidden by You"
 
 #: src/components/dialogs/PostInteractionSettingsDialog.tsx:108
 msgid "Post interaction settings"
-msgstr ""
+msgstr "Skeet interaction settings"
 
 #: src/Navigation.tsx:198
 #: src/screens/ModerationInteractionSettings/index.tsx:34
 msgid "Post Interaction Settings"
-msgstr ""
+msgstr "Skeet Interaction Settings"
 
 #. Accessibility label for button that opens dialog to choose post language settings
 #: src/view/com/composer/select-language/PostLanguageSelect.tsx:124
 msgid "Post language selection"
-msgstr ""
+msgstr "Skeet language selection"
 
 #: src/screens/PostThread/components/ThreadError.tsx:32
 #: src/screens/PostThread/components/ThreadItemPostTombstone.tsx:25
 msgid "Post not found"
-msgstr ""
+msgstr "Skeet not found"
 
 #: src/state/queries/pinned-post.ts:59
 msgctxt "toast"
 msgid "Post pinned"
-msgstr ""
+msgstr "Skeet pinned"
 
 #: src/components/PostControls/BookmarkButton.tsx:59
 msgid "Post saved"
-msgstr ""
+msgstr "Skeet saved"
 
 #: src/state/queries/pinned-post.ts:61
 msgctxt "toast"
 msgid "Post unpinned"
-msgstr ""
+msgstr "Skeet unpinned"
 
 #: src/components/activity-notifications/SubscribeProfileDialog.tsx:250
 #: src/components/activity-notifications/SubscribeProfileDialog.tsx:262
@@ -6701,19 +6701,19 @@ msgstr ""
 #: src/screens/StarterPack/StarterPackScreen.tsx:191
 #: src/view/screens/Profile.tsx:225
 msgid "Posts"
-msgstr ""
+msgstr "Skeets"
 
 #: src/components/dialogs/MutedWords.tsx:120
 msgid "Posts can be muted based on their text, their tags, or both. We recommend avoiding common words that appear in many posts, since it can result in no posts being shown."
-msgstr ""
+msgstr "Skeets can be muted based on their text, their tags, or both. We recommend avoiding common words that appear in many skeets, since it can result in no skeets being shown."
 
 #: src/view/com/posts/PostFeedErrorMessage.tsx:72
 msgid "Posts hidden"
-msgstr ""
+msgstr "Skeets hidden"
 
 #: src/screens/Settings/NotificationSettings/ActivityNotificationSettings.tsx:214
 msgid "Posts, Replies"
-msgstr ""
+msgstr "Skeets, Replies"
 
 #: src/components/dialogs/LinkWarning.tsx:73
 msgid "Potentially misleading link"
@@ -6828,12 +6828,12 @@ msgstr ""
 #. Accessibility label for button to publish a single post
 #: src/view/com/composer/Composer.tsx:1099
 msgid "Publish post"
-msgstr ""
+msgstr "Publish skeet"
 
 #. Accessibility label for button to publish multiple posts in a thread
 #: src/view/com/composer/Composer.tsx:1092
 msgid "Publish posts"
-msgstr ""
+msgstr "Publish skeets"
 
 #. Accessibility label for button to publish multiple replies in a thread
 #: src/view/com/composer/Composer.tsx:1077
@@ -6882,22 +6882,22 @@ msgstr ""
 #: src/components/PostControls/RepostButton.web.tsx:85
 #: src/components/PostControls/RepostButton.web.tsx:92
 msgid "Quote post"
-msgstr ""
+msgstr "Quote skeet"
 
 #: src/components/PostControls/PostMenu/PostMenuItems.tsx:314
 msgid "Quote post was re-attached"
-msgstr ""
+msgstr "Quote skeet was re-attached"
 
 #: src/components/PostControls/PostMenu/PostMenuItems.tsx:313
 msgid "Quote post was successfully detached"
-msgstr ""
+msgstr "Quote skeet was successfully detached"
 
 #: src/components/PostControls/RepostButton.tsx:174
 #: src/components/PostControls/RepostButton.tsx:196
 #: src/components/PostControls/RepostButton.web.tsx:84
 #: src/components/PostControls/RepostButton.web.tsx:91
 msgid "Quote posts disabled"
-msgstr ""
+msgstr "Quote skeets disabled"
 
 #: src/components/dialogs/PostInteractionSettingsDialog.tsx:340
 msgid "Quote settings"
@@ -6912,7 +6912,7 @@ msgstr ""
 
 #: src/screens/PostThread/components/ThreadItemAnchor.tsx:454
 msgid "Quotes of this post"
-msgstr ""
+msgstr "Quotes of this skeet"
 
 #: src/screens/Settings/components/ChangeHandleDialog.tsx:610
 msgid "Rate limit exceeded – you've tried to change your handle too many times in a short period. Please wait a minute before trying again."
@@ -7097,7 +7097,7 @@ msgstr ""
 #: src/components/PostControls/BookmarkButton.tsx:128
 #: src/screens/Bookmarks/index.tsx:249
 msgid "Remove from saved posts"
-msgstr ""
+msgstr "Remove from saved skeets"
 
 #: src/components/FeedCard.tsx:338
 msgid "Remove from your feeds?"
@@ -7123,7 +7123,7 @@ msgstr ""
 #: src/components/PostControls/RepostButton.tsx:152
 #: src/components/PostControls/RepostButton.tsx:162
 msgid "Remove repost"
-msgstr ""
+msgstr "Remove reskeet"
 
 #: src/view/com/composer/videos/SubtitleDialog.tsx:261
 msgid "Remove subtitle file"
@@ -7168,7 +7168,7 @@ msgstr ""
 #: src/components/PostControls/BookmarkButton.tsx:94
 #: src/screens/Bookmarks/index.tsx:207
 msgid "Removed from saved posts"
-msgstr ""
+msgstr "Removed from saved skeets"
 
 #: src/components/dialogs/StarterPackDialog.tsx:277
 msgid "Removed from starter pack"
@@ -7197,12 +7197,12 @@ msgstr ""
 #: src/components/Post/PostRepliedTo.tsx:28
 msgctxt "description"
 msgid "Replied to a blocked post"
-msgstr ""
+msgstr "Replied to a blocked skeet"
 
 #: src/components/Post/PostRepliedTo.tsx:30
 msgctxt "description"
 msgid "Replied to a post"
-msgstr ""
+msgstr "Replied to a skeet"
 
 #: src/components/Post/PostRepliedTo.tsx:36
 msgctxt "description"
@@ -7225,7 +7225,7 @@ msgstr ""
 
 #: src/components/WhoCanReply.tsx:247
 msgid "Replies to this post are disabled."
-msgstr ""
+msgstr "Replies to this skeet are disabled."
 
 #: src/view/com/composer/Composer.tsx:1115
 msgctxt "action"
@@ -7313,7 +7313,7 @@ msgstr ""
 #: src/components/PostControls/PostMenu/PostMenuItems.tsx:686
 #: src/components/PostControls/PostMenu/PostMenuItems.tsx:688
 msgid "Report post"
-msgstr ""
+msgstr "Report skeet"
 
 #: src/screens/StarterPack/StarterPackScreen.tsx:632
 #: src/screens/StarterPack/StarterPackScreen.tsx:635
@@ -7343,7 +7343,7 @@ msgstr ""
 
 #: src/components/moderation/ReportDialog/copy.ts:19
 msgid "Report this post"
-msgstr ""
+msgstr "Report this skeet"
 
 #: src/components/moderation/ReportDialog/copy.ts:37
 msgid "Report this starter pack"
@@ -7359,60 +7359,60 @@ msgstr ""
 #: src/components/PostControls/RepostButton.web.tsx:76
 msgctxt "action"
 msgid "Repost"
-msgstr ""
+msgstr "Reskeet"
 
 #. Accessibility label for the repost button when the post has not been reposted, verb form followed by number of reposts and noun form
 #: src/components/PostControls/RepostButton.tsx:77
 msgid "Repost ({0, plural, one {# repost} other {# reposts}})"
-msgstr ""
+msgstr "Reskeet ({0, plural, one {# reskeet} other {# reskeets}})"
 
 #: src/Navigation.tsx:460
 msgid "Repost notifications"
-msgstr ""
+msgstr "Reskeet notifications"
 
 #: src/components/PostControls/RepostButton.tsx:145
 #: src/components/PostControls/RepostButton.web.tsx:44
 #: src/components/PostControls/RepostButton.web.tsx:104
 #: src/screens/StarterPack/StarterPackScreen.tsx:563
 msgid "Repost or quote post"
-msgstr ""
+msgstr "Reskeet or quote skeet"
 
 #: src/screens/Post/PostRepostedBy.tsx:41
 msgid "Reposted By"
-msgstr ""
+msgstr "Reskeeted By"
 
 #: src/view/com/posts/PostFeedReason.tsx:77
 msgid "Reposted by {reposter}"
-msgstr ""
+msgstr "Reskeeted by {reposter}"
 
 #: src/view/com/posts/PostFeedReason.tsx:91
 msgid "Reposted by <0><1>{reposter}</1></0>"
-msgstr ""
+msgstr "Reskeeted by <0><1>{reposter}</1></0>"
 
 #: src/view/com/posts/PostFeedReason.tsx:77
 #: src/view/com/posts/PostFeedReason.tsx:89
 msgid "Reposted by you"
-msgstr ""
+msgstr "Reskeeted by you"
 
 #: src/lib/hooks/useNotificationHandler.ts:133
 #: src/screens/Settings/NotificationSettings/index.tsx:181
 #: src/screens/Settings/NotificationSettings/RepostNotificationSettings.tsx:41
 msgid "Reposts"
-msgstr ""
+msgstr "Reskeets"
 
 #: src/screens/PostThread/components/ThreadItemAnchor.tsx:436
 msgid "Reposts of this post"
-msgstr ""
+msgstr "Reskeets of this skeet"
 
 #: src/lib/hooks/useNotificationHandler.ts:175
 #: src/screens/Settings/NotificationSettings/index.tsx:222
 #: src/screens/Settings/NotificationSettings/RepostsOnRepostsNotificationSettings.tsx:41
 msgid "Reposts of your reposts"
-msgstr ""
+msgstr "Reskeets of your reskeets"
 
 #: src/Navigation.tsx:484
 msgid "Reposts of your reposts notifications"
-msgstr ""
+msgstr "Reskeets of your reskeets notifications"
 
 #: src/screens/Settings/components/ChangePasswordDialog.tsx:224
 #: src/screens/Settings/components/ChangePasswordDialog.tsx:230
@@ -7422,7 +7422,7 @@ msgstr ""
 #: src/screens/Settings/AccessibilitySettings.tsx:58
 #: src/screens/Settings/AccessibilitySettings.tsx:63
 msgid "Require alt text before posting"
-msgstr ""
+msgstr "Require alt text before skeeting"
 
 #: src/components/dialogs/EmailDialog/screens/Manage2FA/Enable.tsx:96
 msgid "Require an email code to sign in to your account."
@@ -7601,7 +7601,7 @@ msgstr ""
 #: src/Navigation.tsx:608
 #: src/screens/Bookmarks/index.tsx:55
 msgid "Saved Posts"
-msgstr ""
+msgstr "Saved Skeets"
 
 #: src/screens/Profile/components/ProfileFeedHeader.tsx:132
 #: src/screens/ProfileList/components/Header.tsx:85
@@ -7648,7 +7648,7 @@ msgstr ""
 #: src/Navigation.tsx:257
 #: src/screens/Profile/ProfileSearch.tsx:37
 msgid "Search @{0}'s posts"
-msgstr ""
+msgstr "Search @{0}'s skeets"
 
 #: src/components/ProgressGuide/FollowDialog.tsx:592
 msgid "Search by name or interest"
@@ -7690,7 +7690,7 @@ msgstr ""
 
 #: src/screens/Search/Shell.tsx:354
 msgid "Search for posts, users, or feeds"
-msgstr ""
+msgstr "Search for skeets, users, or feeds"
 
 #: src/components/dialogs/GifSelect.tsx:167
 msgid "Search GIFs"
@@ -7708,12 +7708,12 @@ msgstr ""
 
 #: src/screens/Profile/ProfileSearch.tsx:36
 msgid "Search my posts"
-msgstr ""
+msgstr "Search my skeets"
 
 #: src/view/com/profile/ProfileMenu.tsx:271
 #: src/view/com/profile/ProfileMenu.tsx:274
 msgid "Search posts"
-msgstr ""
+msgstr "Search skeets"
 
 #: src/components/dialogs/SearchablePeopleList.tsx:534
 #: src/components/ProgressGuide/FollowDialog.tsx:611
@@ -7739,19 +7739,19 @@ msgstr ""
 
 #: src/components/RichTextTag.tsx:112
 msgid "See {tag} posts"
-msgstr ""
+msgstr "See {tag} skeets"
 
 #: src/components/RichTextTag.tsx:125
 msgid "See {tag} posts by user"
-msgstr ""
+msgstr "See {tag} skeets by user"
 
 #: src/components/RichTextTag.tsx:119
 msgid "See #{tag} posts"
-msgstr ""
+msgstr "See #{tag} skeets"
 
 #: src/components/RichTextTag.tsx:133
 msgid "See #{tag} posts by user"
-msgstr ""
+msgstr "See #{tag} skeets by user"
 
 #: src/view/com/auth/SplashScreen.web.tsx:182
 msgid "See jobs at Bluesky"
@@ -7864,7 +7864,7 @@ msgstr ""
 
 #: src/view/com/composer/select-language/PostLanguageSelect.tsx:57
 msgid "Select post language"
-msgstr ""
+msgstr "Select skeet language"
 
 #: src/screens/Settings/LanguageSettings.tsx:131
 msgid "Select primary language"
@@ -7881,7 +7881,7 @@ msgstr ""
 
 #: src/view/com/composer/select-language/PostLanguageSelectDialog.tsx:194
 msgid "Select up to 3 languages used in this post"
-msgstr ""
+msgstr "Select up to 3 languages used in this skeet"
 
 #: src/components/dialogs/MutedWords.tsx:247
 msgid "Select what content this mute word should apply to."
@@ -7947,11 +7947,11 @@ msgstr ""
 
 #: src/components/PostControls/ShareMenu/RecentChats.tsx:121
 msgid "Send post to {name}"
-msgstr ""
+msgstr "Send skeet to {name}"
 
 #: src/components/dms/dialogs/ShareViaChatDialog.tsx:62
 msgid "Send post to..."
-msgstr ""
+msgstr "Send skeet to..."
 
 #: src/components/moderation/ReportDialog/index.tsx:800
 msgid "Send report to {title}"
@@ -8011,7 +8011,7 @@ msgstr ""
 
 #: src/screens/Settings/PrivacyAndSecuritySettings.tsx:84
 msgid "Settings for allowing others to be notified of your posts"
-msgstr ""
+msgstr "Settings for allowing others to be notified of your skeets"
 
 #: src/screens/Settings/NotificationSettings/index.tsx:121
 msgid "Settings for like notifications"
@@ -8030,12 +8030,12 @@ msgid "Settings for notifications for everything else"
 msgstr ""
 
 #: src/screens/Settings/NotificationSettings/index.tsx:201
-msgid "Settings for notifications for likes of your reposts"
-msgstr ""
+msgid "Settings for notifications for likes of your skeets"
+msgstr "Settings for notifications for likes of your skeets"
 
 #: src/screens/Settings/NotificationSettings/index.tsx:216
-msgid "Settings for notifications for reposts of your reposts"
-msgstr ""
+msgid "Settings for notifications for reposts of your skeets"
+msgstr "Settings for notifications for reskeets of your skeets"
 
 #: src/screens/Settings/NotificationSettings/index.tsx:165
 msgid "Settings for quote notifications"
@@ -8047,7 +8047,7 @@ msgstr ""
 
 #: src/screens/Settings/NotificationSettings/index.tsx:176
 msgid "Settings for repost notifications"
-msgstr ""
+msgstr "Settings for reskeet notifications"
 
 #: src/screens/ModerationInteractionSettings/index.tsx:102
 msgctxt "toast"
@@ -8198,12 +8198,12 @@ msgstr ""
 
 #: src/screens/Settings/ThreadPreferences.tsx:98
 msgid "Show post replies in a threaded tree view"
-msgstr ""
+msgstr "Show skeet replies in a threaded tree view"
 
 #: src/screens/Settings/FollowingFeedPreferences.tsx:107
 #: src/screens/Settings/FollowingFeedPreferences.tsx:117
 msgid "Show quote posts"
-msgstr ""
+msgstr "Show quote skeets"
 
 #: src/screens/Settings/FollowingFeedPreferences.tsx:71
 #: src/screens/Settings/FollowingFeedPreferences.tsx:81
@@ -8222,7 +8222,7 @@ msgstr ""
 #: src/screens/Settings/FollowingFeedPreferences.tsx:89
 #: src/screens/Settings/FollowingFeedPreferences.tsx:99
 msgid "Show reposts"
-msgstr ""
+msgstr "Show reskeets"
 
 #: src/screens/Settings/FollowingFeedPreferences.tsx:132
 #: src/screens/Settings/FollowingFeedPreferences.tsx:142
@@ -8239,7 +8239,7 @@ msgstr ""
 
 #: src/screens/PostThread/components/ThreadItemAnchor.tsx:629
 msgid "Shows information about when this post was created"
-msgstr ""
+msgstr "Shows information about when this skeet was created"
 
 #: src/screens/Settings/Settings.tsx:125
 msgid "Shows other accounts you can switch to"
@@ -8300,7 +8300,7 @@ msgstr ""
 #: src/components/PostControls/PostMenu/PostMenuItems.tsx:493
 #: src/components/PostControls/PostMenu/PostMenuItems.tsx:495
 msgid "Sign in to view post"
-msgstr ""
+msgstr "Sign in to view skeet"
 
 #: src/screens/Settings/Settings.tsx:254
 #: src/screens/Settings/Settings.tsx:256
@@ -8448,7 +8448,7 @@ msgstr ""
 
 #: src/screens/Settings/ThreadPreferences.tsx:48
 msgid "Sort replies to the same post by:"
-msgstr ""
+msgstr "Sort replies to the same skeet by:"
 
 #: src/components/moderation/LabelsOnMeDialog.tsx:182
 #: src/components/moderation/ModerationDetailsDialog.tsx:188
@@ -8865,7 +8865,7 @@ msgstr ""
 
 #: src/screens/ModerationInteractionSettings/index.tsx:42
 msgid "The following settings will be used as your defaults when creating new posts. You can edit these for a specific post from the composer."
-msgstr ""
+msgstr "The following settings will be used as your defaults when creating new skeets. You can edit these for a specific skeet from the composer."
 
 #: src/components/ageAssurance/useAgeAssuranceCopy.ts:11
 msgid "The laws in your location require you to verify you're an adult before accessing certain features on Bluesky, like adult content and direct messaging."
@@ -8877,7 +8877,7 @@ msgstr ""
 
 #: src/view/com/composer/select-language/SuggestedLanguage.tsx:119
 msgid "The post you're replying to was marked as being written in {suggestedLanguageName} by its author. Would you like to reply in <0>{suggestedLanguageName}</0>?"
-msgstr ""
+msgstr "The skeet you're replying to was marked as being written in {suggestedLanguageName} by its author. Would you like to reply in <0>{suggestedLanguageName}</0>?"
 
 #: src/view/screens/PrivacyPolicy.tsx:38
 msgid "The Privacy Policy has been moved to <0/>"
@@ -8944,7 +8944,7 @@ msgstr ""
 #: src/screens/Search/Explore.tsx:993
 #: src/view/com/posts/PostFeed.tsx:712
 msgid "There was an issue fetching posts. Tap here to try again."
-msgstr ""
+msgstr "There was an issue fetching skeets. Tap here to try again."
 
 #: src/view/com/lists/ListMembers.tsx:158
 msgid "There was an issue fetching the list. Tap here to try again."
@@ -9088,7 +9088,7 @@ msgstr ""
 
 #: src/screens/Settings/ActivityPrivacySettings.tsx:55
 msgid "This feature allows users to receive notifications for your new posts and replies. Who do you want to enable this for?"
-msgstr ""
+msgstr "This feature allows users to receive notifications for your new skeets and replies. Who do you want to enable this for?"
 
 #: src/screens/Settings/components/ExportCarDialog.tsx:95
 msgid "This feature is in beta. You can read more about repository exports in <0>this blogpost</0>."
@@ -9167,27 +9167,27 @@ msgstr ""
 
 #: src/screens/PostThread/components/ThreadItemAnchor.tsx:669
 msgid "This post claims to have been created on <0>{0}</0>, but was first seen by Bluesky on <1>{1}</1>."
-msgstr ""
+msgstr "This skeet claims to have been created on <0>{0}</0>, but was first seen by Bitchsky on <1>{1}</1>."
 
 #: src/components/WhoCanReply.tsx:240
 msgid "This post has an unknown type of threadgate on it. Your app may be out of date."
-msgstr ""
+msgstr "This skeet has an unknown type of threadgate on it. Your app may be out of date."
 
 #: src/components/PostControls/ShareMenu/ShareMenuItems.tsx:142
 msgid "This post is only visible to logged-in users."
-msgstr ""
+msgstr "This skeet is only visible to logged-in users."
 
 #: src/screens/Bookmarks/index.tsx:245
 msgid "This post was deleted by its author"
-msgstr ""
+msgstr "This skeet was deleted by its author"
 
 #: src/components/PostControls/PostMenu/PostMenuItems.tsx:744
 msgid "This post will be hidden from feeds and threads. This cannot be undone."
-msgstr ""
+msgstr "This skeet will be hidden from feeds and threads. This cannot be undone."
 
 #: src/view/com/composer/Composer.tsx:513
 msgid "This post's author has disabled quote posts."
-msgstr ""
+msgstr "This skeet's author has disabled quote skeets."
 
 #: src/view/com/profile/ProfileMenu.tsx:504
 msgid "This profile is only visible to logged-in users. It won't be visible to people who aren't signed in."
@@ -9256,7 +9256,7 @@ msgstr ""
 
 #: src/components/PostControls/PostMenu/PostMenuItems.tsx:769
 msgid "This will remove your post from this quote post for all users, and replace it with a placeholder."
-msgstr ""
+msgstr "This will remove your skeet from this quote skeet for all users, and replace it with a placeholder."
 
 #: src/screens/PostThread/components/HeaderDropdown.tsx:23
 #: src/screens/PostThread/components/HeaderDropdown.tsx:26
@@ -9466,12 +9466,12 @@ msgstr ""
 #: src/components/PostControls/RepostButton.web.tsx:68
 #: src/components/PostControls/RepostButton.web.tsx:75
 msgid "Undo repost"
-msgstr ""
+msgstr "Undo reskeet"
 
 #. Accessibility label for the repost button when the post has been reposted, verb followed by number of reposts and noun
 #: src/components/PostControls/RepostButton.tsx:67
 msgid "Undo repost ({0, plural, one {# repost} other {# reposts}})"
-msgstr ""
+msgstr "Undo reskeet ({0, plural, one {# reskeet} other {# reskeets}})"
 
 #: src/view/com/profile/FollowButton.tsx:63
 msgctxt "action"
@@ -10042,7 +10042,7 @@ msgstr ""
 
 #: src/view/com/composer/Composer.tsx:580
 msgid "View post"
-msgstr ""
+msgstr "View skeet"
 
 #: src/components/ProfileHoverCard/index.web.tsx:466
 #: src/components/ProfileHoverCard/index.web.tsx:486
@@ -10079,7 +10079,7 @@ msgstr ""
 
 #: src/screens/Moderation/index.tsx:241
 msgid "View your default post interaction settings"
-msgstr ""
+msgstr "View your default skeet interaction settings"
 
 #: src/view/com/home/HomeHeaderLayout.web.tsx:57
 #: src/view/com/home/HomeHeaderLayoutMobile.tsx:72
@@ -10185,7 +10185,7 @@ msgstr ""
 
 #: src/view/com/posts/DiscoverFallbackHeader.tsx:29
 msgid "We ran out of posts from your follows. Here's the latest from <0/>."
-msgstr ""
+msgstr "We ran out of skeets from your follows. Here's the latest from <0/>."
 
 #: src/screens/Settings/InterestsSettings.tsx:158
 msgid "We recommend selecting at least two interests."
@@ -10274,7 +10274,7 @@ msgstr ""
 
 #: src/view/com/composer/Composer.tsx:510
 msgid "We're sorry! The post you are replying to has been deleted."
-msgstr ""
+msgstr "Sorry! The skeet you are replying to has been deleted."
 
 #: src/components/Lists.tsx:194
 #: src/view/screens/NotFound.tsx:50
@@ -10337,7 +10337,7 @@ msgstr ""
 
 #: src/components/WhoCanReply.tsx:192
 msgid "Who can interact with this post?"
-msgstr ""
+msgstr "Who can interact with this skeet?"
 
 #: src/components/WhoCanReply.tsx:97
 msgid "Who can reply"
@@ -10380,7 +10380,7 @@ msgstr ""
 
 #: src/components/moderation/ReportDialog/copy.ts:20
 msgid "Why should this post be reviewed?"
-msgstr ""
+msgstr "Why should this skeet be reviewed?"
 
 #: src/components/moderation/ReportDialog/copy.ts:38
 msgid "Why should this starter pack be reviewed?"
@@ -10401,7 +10401,7 @@ msgstr ""
 
 #: src/view/com/composer/Composer.tsx:955
 msgid "Write post"
-msgstr ""
+msgstr "Write skeet"
 
 #: src/screens/PostThread/components/ThreadComposePrompt.tsx:90
 #: src/view/com/composer/Composer.tsx:853
@@ -10532,7 +10532,7 @@ msgstr ""
 
 #: src/components/dialogs/nuxs/ActivitySubscriptions.tsx:148
 msgid "You can now choose to be notified when specific people post. If there’s someone you want timely updates from, go to their profile and find the new bell icon near the follow button."
-msgstr ""
+msgstr "You can now choose to be notified when specific people skeet. If there’s someone you want timely updates from, go to their profile and find the new bell icon near the follow button."
 
 #: src/screens/Login/index.tsx:196
 #: src/screens/Login/PasswordUpdatedForm.tsx:26
@@ -10549,7 +10549,7 @@ msgstr ""
 
 #: src/screens/Deactivated.tsx:133
 msgid "You can reactivate your account to continue logging in. Your profile and posts will be visible to other users."
-msgstr ""
+msgstr "You can reactivate your account to continue logging in. Your profile and skeets will be visible to other users."
 
 #. Error message for maximum number of images that can be selected to add to a post, currently 4 but may change.
 #: src/view/com/composer/SelectMediaButton.tsx:393
@@ -10608,11 +10608,11 @@ msgstr ""
 
 #: src/lib/moderation/useModerationCauseDescription.ts:117
 msgid "You have hidden this post"
-msgstr ""
+msgstr "You have hidden this skeet"
 
 #: src/components/moderation/ModerationDetailsDialog.tsx:113
 msgid "You have hidden this post."
-msgstr ""
+msgstr "You have hidden this skeet."
 
 #: src/components/moderation/ModerationDetailsDialog.tsx:106
 #: src/lib/moderation/useModerationCauseDescription.ts:100
@@ -10728,7 +10728,7 @@ msgstr ""
 #: src/screens/PostThread/components/ThreadItemAnchorNoUnauthenticated.tsx:27
 #: src/screens/PostThread/components/ThreadItemPostNoUnauthenticated.tsx:47
 msgid "You must sign in to view this post."
-msgstr ""
+msgstr "You must sign in to view this skeet."
 
 #: src/view/com/composer/SelectMediaButton.tsx:436
 msgid "You need to allow access to your media library."
@@ -10831,7 +10831,7 @@ msgstr ""
 #: src/components/moderation/ModerationDetailsDialog.tsx:110
 #: src/lib/moderation/useModerationCauseDescription.ts:109
 msgid "You've chosen to hide a word or tag within this post."
-msgstr ""
+msgstr "You've chosen to hide a word or tag within this skeet."
 
 #: src/state/shell/progress-guide.tsx:236
 msgid "You've found some people to follow"
@@ -10985,15 +10985,15 @@ msgstr ""
 
 #: src/view/com/composer/Composer.tsx:576
 msgid "Your post was sent"
-msgstr ""
+msgstr "Your skeet was sent"
 
 #: src/view/com/composer/Composer.tsx:573
 msgid "Your posts were sent"
-msgstr ""
+msgstr "Your skeets were sent"
 
 #: src/screens/Onboarding/StepFinished/index.tsx:395
 msgid "Your posts, likes, and blocks are public. Mutes are private."
-msgstr ""
+msgstr "Your skeets, likes, and blocks are public. Mutes are private."
 
 #: src/components/ageAssurance/AgeAssuranceInitDialog.tsx:290
 msgid "Your preferred language"
@@ -11010,7 +11010,7 @@ msgstr ""
 
 #: src/screens/Settings/components/DeactivateAccountDialog.tsx:75
 msgid "Your profile, posts, feeds, and lists will no longer be visible to other Bluesky users. You can reactivate your account at any time by logging in."
-msgstr ""
+msgstr "Your profile, skeets, feeds, and lists will no longer be visible to other Bluesky users. You can reactivate your account at any time by logging in."
 
 #: src/view/com/composer/Composer.tsx:575
 msgid "Your reply was sent"

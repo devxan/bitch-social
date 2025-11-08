@@ -16,7 +16,7 @@ alt="Get it on Obtainium" align="center" height="54" /></a>
 
 - Funner name (still love you tho bsky!)
 - Nicer colors (based on coffee...)
-- We call them skeets (might break for non-English users)
+- We call them skeets (at least for English users)
 - Ignores `!no-unauthenticated` labels
 - Share links to bitchsky.app or bsky.app
 
@@ -32,17 +32,17 @@ These are all available as options in a sub-page of the app's settings.
 
 #### Tweaks
 
-- Toggle to combine reposts in horizontal carousels
+- Toggle to combine reskeets in horizontal carousels
 - Toggle the discover feed fallback in the following feed
 - Toggle to allow visiting sites from clicking non-bsky.social handles
 - Toggle displaying images in higher quality
 - Toggle to only show a single tab if only one feed is pinned
-- Toggle to prevent others from getting notified that you interacted with their repost
+- Toggle to prevent others from getting notified when you interact with their reskeets
 - Toggle similar account recommendations
 
 #### Metrics
 
-You can disable the visiblity of all skeet metrics individually, including the likes, reposts, quotes, saves, and reply counts.
+You can disable the visiblity of all skeet metrics individually, including the likes, reskeets, quotes, saves, and reply counts.
 
 #### Gates
 
@@ -65,13 +65,13 @@ You can disable the visiblity of all skeet metrics individually, including the l
   - [ ] ./assets/
 - [ ] Setup App Linking for Android (.well-known w/ app package fingerprint)
 - [ ] Remove broken Experiments (constellation instance and TODO note)
-- [ ] Replace instances of `group.app.bsky` with `group.app.bitchsky`
-- [ ] Add an experimental toggle to replace posts with skeets
+- [ ] Replace instances of `group.app.bsky` with `group.app.bitchsky` ([see](https://github.com/a-viv-a/deer-social/pull/40))
 - [ ] [Coffee](https://git.ari.lt/coffee) for colors in actual themes
 - [ ] Automatic PDS detection like other social-app forks
 - [ ] Like of or repost of repost icons from blacksky
 - [ ] Change followed accounts [on onboarding](https://github.com/blacksky-algorithms/blacksky.community/commit/e36ee43efb4999f070860d7f70122e45b28c1e2b)
 - [ ] stream.place [embeds](https://github.com/streamplace/deer-social/tree/eli/streamplace-embed)
+- [ ] Change ChatEmptyPill things for English locale
 - [ ] Bitchsky PDS and .social site
 
 ### Even more wishful or far off
