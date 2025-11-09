@@ -17,11 +17,11 @@ alt="Get it on Obtainium" align="center" height="54" /></a>
 - Funner name (still love you tho bsky!)
 - Nicer colors (kinda like gruvbox? not quite)
 - We call them skeets (at least for English users)
-- Ignores `!no-unauthenticated` labels
+- Attempts to ignore `!no-unauthenticated` labels
 - Share links to bitchsky.app or bsky.app
 - Embed player works with [stream.place](https://stream.place/) links!
 - No push notifications (may be added later)
-- Kept super up-to-date (as a result, rarely unstable)
+- Kept super up-to-date (rarely unstable as a result)
 
 ### Experiments
 
@@ -71,15 +71,17 @@ You can disable the visiblity of all metrics individually, including the number 
 ### TODO: Xan
 
 - [ ] Update branding (especially colors and app icon) to Bitchsky
-  - [ ] ./src/view/icons/
-  - [ ] ./src/components/WelcomeModal.tsx
-  - [ ] ./assets/
+  - [ ] ./src/components/WelcomeModal.tsx (tab/hover selector)
+  - [ ] ./src/alf/themes.ts (improve contrast, esp. of links)
+  - [ ] ./src/lib/styles.ts (change likes color, remove gradient from new skeet button)
+  - [ ] ./src/style.css (change links color)
 - [ ] Setup App Linking for Android (.well-known w/ app package fingerprint)
 - [ ] Automatic PDS detection like other social-app forks
 - [ ] Like of or repost of repost icons from blacksky
 - [ ] Change followed accounts [on onboarding](https://github.com/blacksky-algorithms/blacksky.community/commit/e36ee43efb4999f070860d7f70122e45b28c1e2b)
 - [ ] Change ChatEmptyPill things for English locale
 - [ ] stuff from forks like [deer.aylac.top](https://github.com/ayla6/deer-social-test) for pronouns+
+- [ ] Visual replies indicator like the [Firmament userstyle](https://bitchsky.app/profile/did:plc:jwhxcrf5uvl3vyw7nurecgt5/post/3m4rr3vzmak2a)
 - [ ] Bitchsky PDS and .social site
 
 ### Even more wishful or far off

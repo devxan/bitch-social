@@ -2,9 +2,11 @@ name: Build Bitchsky
 on: workflow_dispatch
 
 jobs:
-  build-bitchsky-android:
+  bitchsky-build-android:
     name: Build Bitchsky for Android
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
       - name: Checkout
         uses: actions/checkout@v4
