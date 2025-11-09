@@ -1,4 +1,4 @@
-package xyz.blueskyweb.app.exporeceiveandroidintents
+package app.bitchsky.exporeceiveandroidintents
 
 import android.content.Intent
 import android.graphics.Bitmap

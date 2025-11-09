@@ -1,7 +1,7 @@
-appId: xyz.blueskyweb.app
+appId: app.bitchsky
 ---
 - launchApp:
-    appId: "xyz.blueskyweb.app"
+    appId: "app.bitchsky"
     clearState: true
 - waitForAnimationToEnd
 - tapOn: "http://localhost:8081"
