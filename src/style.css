@@ -389,3 +389,7 @@ input[type='range'][orient='vertical']::-moz-range-thumb {
     opacity: 0;
   }
 }
+
+textarea {
+  resize: vertical !important;
+}
