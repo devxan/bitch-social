@@ -1037,6 +1037,7 @@ function ComposerTopBar({
   topBarAnimatedStyle: StyleProp<ViewStyle>
   children?: React.ReactNode
 }) {
+  const t = useTheme()
   const pal = usePalette('default')
   const {_} = useLingui()
   return (
