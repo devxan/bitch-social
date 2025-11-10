@@ -1,6 +1,6 @@
 # Bitchsky Social App 🧙
 
-Hey, bitches! This is the codebase for the Bitchsky app, based on [social.daniela.lol](https://github.com/kittibytess/deer-social) and code from prior [Bluesky](https://github.com/bluesky-social/social-app) forks.
+Hey, bitches! This is the codebase for the Bitchsky app, based on [social.daniela.lol](https://github.com/kittibytess/deer-social) and prior [Bluesky](https://github.com/bluesky-social/social-app) forks.
 
 Get the app itself:
 
@@ -93,7 +93,6 @@ You can disable the visiblity of all metrics individually, including the number 
 
 - [ ] Fix app crash on tapping profile header (./src/view/com/util/UserBanner.tsx)
 - [ ] Fix inability to zoom in on image lightboxes
-- [ ] Fix chat input overlapping with chat messages (going upwards)
 
 ### Even more wishful or far off
 
